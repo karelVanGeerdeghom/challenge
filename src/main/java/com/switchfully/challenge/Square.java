@@ -1,24 +1,23 @@
 package com.switchfully.challenge;
 
-public class Circle extends Shape {
+public class Square extends Shape {
+    private double side;
 
-    private double radius;
-
-    public Circle(double radius) {
-        this.radius = radius;
+    public Square(double side) {
+        this.side = side;
     }
 
-    public double getRadius() {
-        return radius;
+    public double getSide() {
+        return side;
     }
 
-    public void setRadius(double radius) {
-        this.radius = radius;
+    public void setSide(double side) {
+        this.side = side;
     }
 
     @Override
     public double getSurface() {
-        return Math.PI * radius * radius;
+        return Math.pow(side, 2);
     }
 
     @Override

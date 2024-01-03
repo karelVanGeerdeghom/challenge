@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f81f27-3cf3-44a0-afb2-1db039688107" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" afterDir="false" />
+    <list default="true" id="0be339c5-8a2a-4ee8-93eb-74dc8b7c5308" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CircumferenceCalculatorTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/HtmlGeneratorTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +35,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2aP1I4HTSiCvl3Qh0YGoFZPCCE9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,9 +47,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,15 +57,36 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.switchfully.challenge.Main" />
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.switchfully.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14f81f27-3cf3-44a0-afb2-1db039688107" name="Changes" comment="" />
-      <created>1703240098752</created>
+      <changelist id="0be339c5-8a2a-4ee8-93eb-74dc8b7c5308" name="Changes" comment="" />
+      <created>1704205317177</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703240098752</updated>
-      <workItem from="1703240099796" duration="1937000" />
+      <updated>1704205317177</updated>
+      <workItem from="1704205318167" duration="1118000" />
+      <workItem from="1704268802526" duration="4451000" />
     </task>
     <servers />
   </component>

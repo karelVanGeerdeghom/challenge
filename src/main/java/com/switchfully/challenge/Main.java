@@ -6,9 +6,15 @@ public class Main {
 
         Rectangle r1 = new Rectangle(2, 3);
         drawing.addShape(r1);
+
+        Square s1 = new Square(6);
+        drawing.addShape(s1);
+
         CompositeShape composite1 = new CompositeShape();
         Rectangle r3 = new Rectangle(2.5, 5);
         composite1.addShape(r3);
+        drawing.addShape(composite1);
+
         CompositeShape composite2 = new CompositeShape();
         Rectangle r2 = new Rectangle(3, 4);
         Circle c1 = new Circle(2.5);

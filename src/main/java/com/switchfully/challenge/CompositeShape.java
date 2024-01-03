@@ -11,9 +11,22 @@ public class CompositeShape extends Shape {
         shapeList.add(shape);
     }
 
+    public List<Shape> getShapeList() {
+        return shapeList;
+    }
+
     @Override
     public double getSurface() {
-        // TODO implement this method
-        return 0;
+        return shapeList.stream().reduce(0.0, (totalSurface, shape) -> totalSurface + shape.getSurface(), Double::sum);
+    }
+
+    @Override
+    public double applyToolAndGetResult(CircumferenceCalculatorTool circumferenceCalculatorTool) {
+        return shapeList.stream().reduce(0.0, (totalCircumference, shape) -> totalCircumference + shape.applyToolAndGetResult(circumferenceCalculatorTool), Double::sum);
+    }
+
+    @Override
+    public String applyToolAndGetResult(HtmlGeneratorTool htmlGeneratorTool) {
+        return shapeList.stream().reduce("", (totalHtml, shape) -> totalHtml + shape.applyToolAndGetResult(htmlGeneratorTool), String::concat);
     }
 }

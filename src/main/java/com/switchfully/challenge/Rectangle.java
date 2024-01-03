@@ -31,4 +31,14 @@ public class Rectangle extends Shape {
     public double getSurface() {
         return length * width;
     }
+
+    @Override
+    public double applyToolAndGetResult(CircumferenceCalculatorTool circumferenceCalculatorTool) {
+        return circumferenceCalculatorTool.calculate(this);
+    }
+
+    @Override
+    public String applyToolAndGetResult(HtmlGeneratorTool htmlGeneratorTool) {
+        return htmlGeneratorTool.generate(this);
+    }
 }
