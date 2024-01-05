@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Total surface is " + totalSurface);
 
         // TODO How would you add a "Square" as an additional shape?
-
+/*
         // TODO implement a HTML generator for the drawing
         // DO NOT ADD toHtml() methods on the Shape classes!!!
         HtmlGeneratorTool htmlGeneratorTool = new HtmlGeneratorTool();
@@ -39,7 +39,7 @@ public class Main {
         CircumferenceCalculatorTool circumferenceCalculatorTool = new CircumferenceCalculatorTool();
         double totalCircumference = drawing.applyToolAndGetResult(circumferenceCalculatorTool);
         System.out.println("Total circumference is " + totalCircumference);
-
+*/
         // DO NOT USE Casting
         // DO NOT USE instanceOf !!!
     }

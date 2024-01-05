@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be339c5-8a2a-4ee8-93eb-74dc8b7c5308" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CircumferenceCalculatorTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/HtmlGeneratorTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Tool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CircumferenceCalculatorTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CircumferenceCalculatorTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/HtmlGeneratorTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/HtmlGeneratorTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,20 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.switchfully.challenge.Main" />
@@ -86,7 +84,9 @@
       <option name="presentableId" value="Default" />
       <updated>1704205317177</updated>
       <workItem from="1704205318167" duration="1118000" />
-      <workItem from="1704268802526" duration="4451000" />
+      <workItem from="1704268802526" duration="6609000" />
+      <workItem from="1704356746243" duration="1206000" />
+      <workItem from="1704379912834" duration="2074000" />
     </task>
     <servers />
   </component>

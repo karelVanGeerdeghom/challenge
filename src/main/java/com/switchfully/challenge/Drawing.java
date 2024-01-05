@@ -28,11 +28,4 @@ public class Drawing {
         return shapeList.stream().reduce(0.0, (totalSurface, shape) -> totalSurface + shape.getSurface(), Double::sum);
     }
 
-    public double applyToolAndGetResult(CircumferenceCalculatorTool circumferenceCalculatorTool) {
-        return shapeList.stream().reduce(0.0, (totalCircumference, shape) -> totalCircumference + shape.applyToolAndGetResult(circumferenceCalculatorTool), Double::sum);
-    }
-
-    public String applyToolAndGetResult(HtmlGeneratorTool htmlGeneratorTool) {
-        return shapeList.stream().reduce("", (totalHtml, shape) -> totalHtml + shape.applyToolAndGetResult(htmlGeneratorTool), String::concat);
-    }
 }

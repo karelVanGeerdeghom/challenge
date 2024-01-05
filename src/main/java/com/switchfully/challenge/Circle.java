@@ -22,12 +22,7 @@ public class Circle extends Shape {
     }
 
     @Override
-    public double applyToolAndGetResult(CircumferenceCalculatorTool circumferenceCalculatorTool) {
-        return circumferenceCalculatorTool.calculate(this);
-    }
-
-    @Override
-    public String applyToolAndGetResult(HtmlGeneratorTool htmlGeneratorTool) {
-        return htmlGeneratorTool.generate(this);
+    public Double applyToolAndGetResult(Tool<Double> tool) {
+        return tool.apply(this);
     }
 }

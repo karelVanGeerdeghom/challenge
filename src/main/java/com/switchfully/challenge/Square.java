@@ -19,14 +19,4 @@ public class Square extends Shape {
     public double getSurface() {
         return Math.pow(side, 2);
     }
-
-    @Override
-    public double applyToolAndGetResult(CircumferenceCalculatorTool circumferenceCalculatorTool) {
-        return circumferenceCalculatorTool.calculate(this);
-    }
-
-    @Override
-    public String applyToolAndGetResult(HtmlGeneratorTool htmlGeneratorTool) {
-        return htmlGeneratorTool.generate(this);
-    }
 }
