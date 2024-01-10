@@ -2,11 +2,6 @@ package com.switchfully.challenge;
 
 public class HtmlGeneratorTool implements Tool<String> {
     @Override
-    public String apply(Drawing drawing) {
-        return drawing.getShapeList().stream().reduce("", (totalHtml, shape) -> totalHtml + this.apply(shape), String::concat);
-    }
-
-    @Override
     public String apply(Shape shape) {
         return shape.applyToolAndGetResult(this);
     }

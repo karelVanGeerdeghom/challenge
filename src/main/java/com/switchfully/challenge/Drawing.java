@@ -1,12 +1,9 @@
 package com.switchfully.challenge;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Drawing {
 
     private String name;
-    private List<Shape> shapeList = new ArrayList<>();
+    private final CompositeShape compositeShape = new CompositeShape();
 
     public Drawing(String name) {
         this.name = name;
@@ -21,18 +18,14 @@ public class Drawing {
     }
 
     public void addShape(Shape shape) {
-        shapeList.add(shape);
-    }
-
-    public List<Shape> getShapeList() {
-        return shapeList;
+        this.compositeShape.addShape(shape);
     }
 
     public double getTotalSurface() {
-        return shapeList.stream().reduce(0.0, (totalSurface, shape) -> totalSurface + shape.getSurface(), Double::sum);
+        return this.compositeShape.getSurface();
     }
 
     public <T> T applyToolAndGetResult(Tool<T> tool) {
-        return tool.apply(this);
+        return tool.apply(this.compositeShape);
     }
 }
