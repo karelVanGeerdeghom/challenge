@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0be339c5-8a2a-4ee8-93eb-74dc8b7c5308" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CircumferenceCalculatorTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CircumferenceCalculatorTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/CompositeShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Drawing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/HtmlGeneratorTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/HtmlGeneratorTool.java" afterDir="false" />
@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/switchfully/challenge/Tool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1704441551440" duration="4128000" />
       <workItem from="1704701670709" duration="599000" />
       <workItem from="1704788505518" duration="128000" />
-      <workItem from="1704873876789" duration="1126000" />
+      <workItem from="1704873876789" duration="3091000" />
     </task>
     <servers />
   </component>

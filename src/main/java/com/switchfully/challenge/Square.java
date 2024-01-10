@@ -21,7 +21,7 @@ public class Square extends Shape {
     }
 
     @Override
-    public Double applyToolAndGetResult(Tool<Double> tool) {
+    public <T> T applyToolAndGetResult(Tool<T> tool) {
         return tool.apply(this);
     }
 }

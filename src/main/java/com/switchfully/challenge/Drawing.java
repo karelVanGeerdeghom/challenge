@@ -32,7 +32,7 @@ public class Drawing {
         return shapeList.stream().reduce(0.0, (totalSurface, shape) -> totalSurface + shape.getSurface(), Double::sum);
     }
 
-    public Double applyToolAndGetResult(Tool<Double> tool) {
+    public <T> T applyToolAndGetResult(Tool<T> tool) {
         return tool.apply(this);
     }
 }
