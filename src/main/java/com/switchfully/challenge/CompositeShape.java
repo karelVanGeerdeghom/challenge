@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CompositeShape extends Shape {
 
-    private List<Shape> shapeList = new ArrayList<>();
+    private final List<Shape> shapeList = new ArrayList<>();
 
     public void addShape(Shape shape) {
         shapeList.add(shape);
