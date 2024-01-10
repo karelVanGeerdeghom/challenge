@@ -31,4 +31,9 @@ public class Rectangle extends Shape {
     public double getSurface() {
         return length * width;
     }
+
+    @Override
+    public Double applyToolAndGetResult(Tool<Double> tool) {
+        return tool.apply(this);
+    }
 }

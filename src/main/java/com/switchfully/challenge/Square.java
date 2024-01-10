@@ -19,4 +19,9 @@ public class Square extends Shape {
     public double getSurface() {
         return Math.pow(side, 2);
     }
+
+    @Override
+    public Double applyToolAndGetResult(Tool<Double> tool) {
+        return tool.apply(this);
+    }
 }

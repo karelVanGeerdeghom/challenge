@@ -20,4 +20,8 @@ public class CompositeShape extends Shape {
         return shapeList.stream().reduce(0.0, (totalSurface, shape) -> totalSurface + shape.getSurface(), Double::sum);
     }
 
+    @Override
+    public Double applyToolAndGetResult(Tool<Double> tool) {
+        return tool.apply(this);
+    }
 }

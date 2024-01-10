@@ -24,8 +24,15 @@ public class Drawing {
         shapeList.add(shape);
     }
 
+    public List<Shape> getShapeList() {
+        return shapeList;
+    }
+
     public double getTotalSurface() {
         return shapeList.stream().reduce(0.0, (totalSurface, shape) -> totalSurface + shape.getSurface(), Double::sum);
     }
 
+    public Double applyToolAndGetResult(Tool<Double> tool) {
+        return tool.apply(this);
+    }
 }

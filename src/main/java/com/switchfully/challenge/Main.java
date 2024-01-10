@@ -33,13 +33,13 @@ public class Main {
         HtmlGeneratorTool htmlGeneratorTool = new HtmlGeneratorTool();
         String html = drawing.applyToolAndGetResult(htmlGeneratorTool);
         System.out.println("Html is " + html);
-
+*/
         // TODO implement a Circumference calculator for the drawing
         // DO NOT ADD getCircumference() methods on the Shape classes!!!
         CircumferenceCalculatorTool circumferenceCalculatorTool = new CircumferenceCalculatorTool();
         double totalCircumference = drawing.applyToolAndGetResult(circumferenceCalculatorTool);
         System.out.println("Total circumference is " + totalCircumference);
-*/
+
         // DO NOT USE Casting
         // DO NOT USE instanceOf !!!
     }
